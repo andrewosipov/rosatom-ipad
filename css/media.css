@@ -1,0 +1,58 @@
+/* большие экраны wide */
+@media (min-width: 1281px) {
+	
+	/*.media{ width:1196px; }
+	.wide{ width:100%; }*/
+	
+}
+
+/* средние экраны */
+@media (min-width: 1196px) and (max-width: 1280px) {
+	
+	/*.media{ width:1196px; }
+	.wide{ width:100%; }*/
+	
+}
+
+/* планшет и маленькие экраны medium */
+@media (min-width: 1001px) and (max-width: 1193px) {
+	
+	/*.media{ width:1000px; }
+	.wide{ width:100%; }*/
+	
+	
+	
+}
+
+/* планшет и маленькие экраны  medium-small*/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	/*.media{ width:90%; }
+	.wide{ width:100%; }*/
+	
+}
+
+/* планшет и телефон small */
+@media (min-width: 481px) and (max-width: 767px) {
+	
+	/*.media{ width:100%; }
+	.wide{ width:100%; }*/
+	
+}
+
+/* телефон mobile */
+@media (min-width: 321px) and (max-width: 480px) {
+	
+	/*.media{ width:320px; }
+	.wide{ width:100%; }*/
+	
+}
+
+/* телефон mobile-old */
+@media (min-width: 300px) and  (max-width: 320px) {
+	
+	/*.media{ width:300px; }
+	.wide{ width:100%; }*/
+	
+	
+}

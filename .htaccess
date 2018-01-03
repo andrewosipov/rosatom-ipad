@@ -1,0 +1,10 @@
+AddDefaultCharset UTF-8
+
+php_value display_errors	 0
+php_value error_reporting	 2047
+RewriteEngine On
+Options +FollowSymlinks -Indexes
+
+RewriteRule ^(en)/$ index.php?lang=en&%{QUERY_STRING} [L]
+RewriteRule ^(en)/main.php$ main.php?lang=en&%{QUERY_STRING} [L]
+RewriteRule ^(en)/object.php$ object.php?lang=en&%{QUERY_STRING} [L]
